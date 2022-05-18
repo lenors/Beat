@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #129799;
+  padding: 24px 0 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+header nav ul li {
+  color: #F7F7F7;
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+.clicked {
+  font-weight: 500;
+}
+
+header section {
+  display: flex;
+}
+
+header section h1 {
+  font-size: 64px;
+  color: #F7F7F7;
+  line-height: 320px;
+}
+
+header section img {
+  margin-top: -10px;
+}
+
+main {
+  background-color: #FFA185;
+  max-width: 1920px;
+}
+
+main section {
+  padding: 27px 105px 27px 56px;
+}
+
+main section h3 {
+  line-height: 120px;
+  font-size: 48px;
+  color: #F7F7F7;
+  font-weight: 400;
+}
+
+main section p {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.galeria {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+main figure figure {
+  width: 640px;
+  height: 340.99px;
+  overflow: hidden;
+  margin: 28px 14.5px;
+}
+
+.figure-01 {
+  margin-top: -50px;
+}
+
+.figure-02 {
+  margin-top: -25px;
+}
+
+.figure-03 {
+  margin-top: 0px;
+}
+
+.figure-04 {
+  margin-top: -70px;
+}
+
+main h4 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 53px;
+}
+
+footer {
+  max-width: 1920px;
+  background-color: #129799;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 112px 65px 112px;
+}
+
+footer figure {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer figure figure img {
+  width: 40px;
+  height: 40px;
+  margin-right: 31px;
+}
+
+
+footer nav ul li {
+  color: #F7F7F7;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 100px;
+  font-weight: 400;
+}
