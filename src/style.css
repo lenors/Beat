@@ -135,3 +135,11 @@ footer nav ul li {
   margin-left: 100px;
   font-weight: 400;
 }
+@media (max-width: 786px){
+header h1{
+  display: none;
+
+}
+ 
+
+}
